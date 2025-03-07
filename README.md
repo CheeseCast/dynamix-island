@@ -52,7 +52,7 @@ sudo pacman -S python-gobject python-dbus gtk3 nodejs npm
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/linux-dynamic-island.git
+git clone https://github.com/CheeseCast/dynamix-island.git
 cd linux-dynamic-island
 ```
 
