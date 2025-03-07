@@ -35,7 +35,7 @@ function createWindow() {
   const primaryDisplay = screen.getPrimaryDisplay()
   const { x, y, width } = primaryDisplay.workArea
   const windowX = Math.floor(x + (width - 600) / 2)
-  mainWindow.setPosition(windowX, y + 20)
+  mainWindow.setPosition(windowX, y + 5)
 }
 
 async function initializeDBus() {
