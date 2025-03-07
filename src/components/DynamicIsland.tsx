@@ -46,7 +46,9 @@ const DynamicIsland = () => {
             width: '20px',
             height: '20px',
             borderRadius: '4px',
-            background: currentTrack?.artUrl ? `url(${currentTrack.artUrl})` : '#333',
+            background: currentTrack?.artUrl 
+              ? `url(${currentTrack.artUrl}) center center / cover no-repeat` 
+              : '#333',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             marginRight: '8px',
@@ -86,7 +88,9 @@ const DynamicIsland = () => {
             height: '40px',
             borderRadius: '8px',
             marginRight: '12px',
-            background: currentTrack?.artUrl ? `url(${currentTrack.artUrl})` : '#333',
+            background: currentTrack?.artUrl 
+              ? `url(${currentTrack.artUrl}) center center / cover no-repeat` 
+              : '#333',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             boxShadow: '0 2px 8px rgba(0, 0, 0, 0.3)'

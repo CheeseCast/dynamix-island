@@ -11,6 +11,7 @@
 body {
   margin: auto;
   padding: 0;
+  margin-top: 20px;
   background: transparent;
   overflow: hidden;
   user-select: none;
@@ -22,6 +23,26 @@ body {
 .dynamic-island-container {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Update the hover state to combine with float animation */
+.dynamic-island-container:hover {
+  animation: none;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .control-button:hover {
