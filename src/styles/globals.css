@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+  color: rgb(var(--foreground-rgb));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+
+.dynamic-island-container {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.control-button:hover {
+  opacity: 1 !important;
+  transform: scale(1.1);
+}
+
+/* Default state animation */
+@keyframes subtle-bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.98); }
+}
+
+#island:not(:hover) {
+  animation: subtle-bounce 2s infinite;
+}
+
+.dynamic-island {
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  -webkit-box-align: center;
+  cursor: grab;
+  position: relative;
+  overflow: hidden;
+  transition: width 0.3s ease-out, height 0.3s ease-out, border-radius 0.3s ease-out, padding 0.3s ease-out;
+  user-select: none;
+}
+
+.dynamic-island-collapsed {
+  width: fit-content;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0 10px;
+
+}
+
+.dynamic-island-expanded {
+  width: max-content;
+  height: 65px;
+  border-radius: 25px;
+  padding: 12px 15px;
+}
