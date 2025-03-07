@@ -1,21 +1,21 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Linux Dynamic Island Logo" width="200" height="200">
+  <img src="assets/logo.png" alt="Linux Dynamic Island Logo" height="200">
   <h1>Linux Dynamic Island</h1>
   <p>
     <strong>A sleek, macOS-style Dynamic Island for Linux desktops</strong>
   </p>
   <p>
-    <a href="https://github.com/yourusername/linux-dynamic-island/issues">
-      <img src="https://img.shields.io/github/issues/yourusername/linux-dynamic-island" alt="Issues">
+    <a href="https://github.com/CheeseCast/dynamix-island/issues">
+      <img src="https://img.shields.io/github/issues/CheeseCast/dynamix-island" alt="Issues">
     </a>
-    <a href="https://github.com/yourusername/linux-dynamic-island/network/members">
-      <img src="https://img.shields.io/github/forks/yourusername/linux-dynamic-island" alt="Forks">
+    <a href="https://github.com/CheeseCast/dynamix-island/network/members">
+      <img src="https://img.shields.io/github/forks/CheeseCast/dynamix-island" alt="Forks">
     </a>
-    <a href="https://github.com/yourusername/linux-dynamic-island/stargazers">
-      <img src="https://img.shields.io/github/stars/yourusername/linux-dynamic-island" alt="Stars">
+    <a href="https://github.com/CheeseCast/dynamix-island/stargazers">
+      <img src="https://img.shields.io/github/stars/CheeseCast/dynamix-island" alt="Stars">
     </a>
-    <a href="https://github.com/yourusername/linux-dynamic-island/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/yourusername/linux-dynamic-island" alt="License">
+    <a href="https://github.com/CheeseCast/dynamix-island/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/CheeseCast/dynamix-island" alt="License">
     </a>
   </p>
 </div>
